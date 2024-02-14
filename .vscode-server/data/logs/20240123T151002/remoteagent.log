@@ -1,0 +1,36 @@
+2024-01-23 15:10:02.506 [info] 
+
+
+
+
+2024-01-23 15:10:02.517 [info] Extension host agent started.
+2024-01-23 15:10:02.644 [info] [127.0.0.1][91506870][ManagementConnection] New connection established.
+2024-01-23 15:10:02.945 [info] [127.0.0.1][a91cdbca][ExtensionHostConnection] New connection established.
+2024-01-23 15:10:02.952 [info] [127.0.0.1][a91cdbca][ExtensionHostConnection] <3059> Launched Extension Host Process.
+2024-01-23 15:12:42.441 [info] Getting Manifest... ritwickdey.liveserver
+2024-01-23 15:12:42.858 [info] Installing extension: ritwickdey.liveserver
+2024-01-23 15:12:43.707 [warning] Extension signature verification failed with error 'ENOENT': ritwickdey.liveserver
+2024-01-23 15:12:48.051 [info] Extracted extension to file:///home/chachiruli/.vscode-server/extensions/ritwickdey.liveserver-5.7.9: ritwickdey.liveserver
+2024-01-23 15:12:48.067 [info] Renamed to /home/chachiruli/.vscode-server/extensions/ritwickdey.liveserver-5.7.9
+2024-01-23 15:12:48.070 [info] Extracting extension completed. ritwickdey.liveserver
+2024-01-23 15:12:48.078 [info] Extension installed successfully: ritwickdey.liveserver
+2024-01-23 15:13:38.173 [info] [127.0.0.1][91506870][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-01-23 15:13:38.303 [info] [127.0.0.1][a91cdbca][ExtensionHostConnection] <3059> Extension Host Process exited with code: 0, signal: null.
+2024-01-23 15:13:40.221 [info] [127.0.0.1][8ab5c9fd][ManagementConnection] New connection established.
+2024-01-23 15:13:40.622 [info] [127.0.0.1][b8e146e8][ExtensionHostConnection] New connection established.
+2024-01-23 15:13:40.629 [info] [127.0.0.1][b8e146e8][ExtensionHostConnection] <3744> Launched Extension Host Process.
+2024-01-23 15:14:05.257 [info] [127.0.0.1][8ab5c9fd][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-01-23 15:14:05.343 [info] [127.0.0.1][b8e146e8][ExtensionHostConnection] <3744> Extension Host Process exited with code: 0, signal: null.
+2024-01-23 15:14:07.201 [info] [127.0.0.1][64bc6804][ManagementConnection] New connection established.
+2024-01-23 15:14:07.682 [info] [127.0.0.1][c89edb64][ExtensionHostConnection] New connection established.
+2024-01-23 15:14:07.695 [info] [127.0.0.1][c89edb64][ExtensionHostConnection] <3897> Launched Extension Host Process.
+2024-01-23 15:14:37.976 [info] Uninstalling extension from the profile: ritwickdey.liveserver@5.7.9 file:///home/chachiruli/.vscode-server/extensions/extensions.json
+2024-01-23 15:14:38.012 [info] Marked extension as uninstalled ritwickdey.liveserver-5.7.9
+2024-01-23 15:14:39.053 [info] Successfully uninstalled extension from the profile ritwickdey.liveserver@5.7.9 file:///home/chachiruli/.vscode-server/extensions/extensions.json
+2024-01-23 15:14:41.075 [info] Getting Manifest... ritwickdey.liveserver
+2024-01-23 15:14:41.388 [info] Installing extension: ritwickdey.liveserver
+2024-01-23 15:14:41.902 [warning] Extension signature verification failed with error 'ENOENT': ritwickdey.liveserver
+2024-01-23 15:14:41.907 [info] Removed the extension from uninstalled list: ritwickdey.liveserver
+2024-01-23 15:14:41.923 [info] Extension installed successfully: ritwickdey.liveserver
+2024-01-23 15:14:55.736 [info] [127.0.0.1][64bc6804][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-01-23 15:14:55.929 [info] [127.0.0.1][c89edb64][ExtensionHostConnection] <3897> Extension Host Process exited with code: 0, signal: null.

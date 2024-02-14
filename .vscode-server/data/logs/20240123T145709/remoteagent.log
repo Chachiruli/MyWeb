@@ -1,0 +1,29 @@
+2024-01-23 14:57:09.129 [info] 
+
+
+
+
+2024-01-23 14:57:09.129 [info] Extension host agent started.
+2024-01-23 14:57:09.130 [info] Started initializing default profile extensions in extensions installation folder. file:///home/chachiruli/.vscode-server/extensions
+2024-01-23 14:57:09.161 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/chachiruli/.vscode-server/extensions
+2024-01-23 14:57:09.908 [info] [127.0.0.1][2d21dbd4][ExtensionHostConnection] New connection established.
+2024-01-23 14:57:09.909 [info] [127.0.0.1][e385d607][ManagementConnection] New connection established.
+2024-01-23 14:57:09.954 [info] Installing extensions...
+2024-01-23 14:57:10.143 [info] [127.0.0.1][2d21dbd4][ExtensionHostConnection] <554> Launched Extension Host Process.
+2024-01-23 14:57:10.744 [info] Installing extension 'ms-ceintl.vscode-language-pack-es'...
+2024-01-23 14:57:10.746 [info] Getting Manifest... ms-ceintl.vscode-language-pack-es
+2024-01-23 14:57:10.780 [info] Installing extension: ms-ceintl.vscode-language-pack-es
+2024-01-23 14:57:11.438 [warning] Extension signature verification failed with error 'ENOENT': ms-ceintl.vscode-language-pack-es
+2024-01-23 14:57:11.640 [info] Extracted extension to file:///home/chachiruli/.vscode-server/extensions/ms-ceintl.vscode-language-pack-es-1.85.2024011709: ms-ceintl.vscode-language-pack-es
+2024-01-23 14:57:11.654 [info] Renamed to /home/chachiruli/.vscode-server/extensions/ms-ceintl.vscode-language-pack-es-1.85.2024011709
+2024-01-23 14:57:11.659 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-es
+2024-01-23 14:57:11.668 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-es
+2024-01-23 14:57:11.728 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-es
+2024-01-23 14:57:11.729 [info] Extension 'ms-ceintl.vscode-language-pack-es' v1.85.2024011709 was successfully installed.
+2024-01-23 15:09:14.380 [info] [127.0.0.1][e385d607][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-01-23 15:09:14.525 [info] [127.0.0.1][2d21dbd4][ExtensionHostConnection] <554> Extension Host Process exited with code: 0, signal: null.
+2024-01-23 15:09:16.692 [info] [127.0.0.1][817beec6][ManagementConnection] New connection established.
+2024-01-23 15:09:17.436 [info] [127.0.0.1][5e929751][ExtensionHostConnection] New connection established.
+2024-01-23 15:09:17.444 [info] [127.0.0.1][5e929751][ExtensionHostConnection] <2849> Launched Extension Host Process.
+2024-01-23 15:09:42.671 [info] [127.0.0.1][817beec6][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-01-23 15:09:42.756 [info] [127.0.0.1][5e929751][ExtensionHostConnection] <2849> Extension Host Process exited with code: 0, signal: null.

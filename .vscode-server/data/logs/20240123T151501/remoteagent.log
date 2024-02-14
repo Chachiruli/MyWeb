@@ -1,0 +1,22 @@
+2024-01-23 15:15:01.292 [info] 
+
+
+
+
+2024-01-23 15:15:01.312 [info] Extension host agent started.
+2024-01-23 15:15:01.427 [info] [127.0.0.1][5a4385df][ManagementConnection] New connection established.
+2024-01-23 15:15:01.906 [info] [127.0.0.1][e2792726][ExtensionHostConnection] New connection established.
+2024-01-23 15:15:01.934 [info] [127.0.0.1][e2792726][ExtensionHostConnection] <4216> Launched Extension Host Process.
+2024-01-23 15:19:15.923 [info] Getting Manifest... yandeu.five-server
+2024-01-23 15:19:15.991 [info] Installing extension: yandeu.five-server
+2024-01-23 15:19:16.712 [warning] Extension signature verification failed with error 'ENOENT': yandeu.five-server
+2024-01-23 15:19:17.010 [info] Extracted extension to file:///home/chachiruli/.vscode-server/extensions/yandeu.five-server-0.3.1: yandeu.five-server
+2024-01-23 15:19:17.016 [info] Renamed to /home/chachiruli/.vscode-server/extensions/yandeu.five-server-0.3.1
+2024-01-23 15:19:17.019 [info] Extracting extension completed. yandeu.five-server
+2024-01-23 15:19:17.027 [info] Extension installed successfully: yandeu.five-server
+2024-01-23 15:25:56.579 [info] [127.0.0.1][5a4385df][ManagementConnection] The client has reconnected.
+2024-01-23 15:25:56.889 [info] [127.0.0.1][e2792726][ExtensionHostConnection] The client has reconnected.
+2024-01-23 15:40:43.334 [info] [127.0.0.1][e2792726][ExtensionHostConnection] The client has reconnected.
+2024-01-23 15:40:43.650 [info] [127.0.0.1][5a4385df][ManagementConnection] The client has reconnected.
+2024-01-23 15:48:49.051 [info] [127.0.0.1][5a4385df][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-01-23 15:48:49.440 [info] [127.0.0.1][e2792726][ExtensionHostConnection] <4216> Extension Host Process exited with code: 0, signal: null.

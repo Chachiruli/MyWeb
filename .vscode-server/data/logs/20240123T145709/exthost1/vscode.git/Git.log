@@ -1,0 +1,15 @@
+2024-01-23 14:57:15.095 [info] Nivel de registro: Info
+2024-01-23 14:57:15.095 [info] La validación encontró GIT en: “git“
+2024-01-23 14:57:15.095 [info] Usando GIT “2.34.1” desde “git”
+2024-01-23 14:57:15.095 [info] > git rev-parse --show-toplevel [3ms]
+2024-01-23 14:57:15.095 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-23 14:57:15.095 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-23 14:57:15.095 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-23 14:57:15.100 [info] > git rev-parse --show-toplevel [1ms]
+2024-01-23 14:57:15.101 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-23 15:01:32.964 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-23 15:01:32.964 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-23 15:04:32.989 [info] > git rev-parse --show-toplevel [2ms]
+2024-01-23 15:04:32.990 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-01-23 15:08:17.852 [info] > git rev-parse --show-toplevel [3ms]
+2024-01-23 15:08:17.852 [info] fatal: not a git repository (or any of the parent directories): .git

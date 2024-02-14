@@ -1,0 +1,97 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.2.4
+2 info using node@v21.6.1
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/usr/local/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 2ms
+10 timing config:load:file:/home/chachiruli/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/usr/local/etc/npmrc Completed in 1ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:setEnvs Completed in 0ms
+15 timing config:load Completed in 9ms
+16 timing npm:load:configload Completed in 9ms
+17 timing config:load:flatten Completed in 1ms
+18 timing npm:load:mkdirpcache Completed in 1ms
+19 timing npm:load:mkdirplogs Completed in 1ms
+20 verbose title npm install n
+21 verbose argv "install" "--global" "n"
+22 timing npm:load:setTitle Completed in 0ms
+23 timing npm:load:display Completed in 1ms
+24 verbose logfile logs-max:10 dir:/home/chachiruli/.npm/_logs/2024-01-30T10_44_16_322Z-
+25 verbose logfile /home/chachiruli/.npm/_logs/2024-01-30T10_44_16_322Z-debug-0.log
+26 timing npm:load:logFile Completed in 7ms
+27 timing npm:load:timers Completed in 0ms
+28 timing npm:load:configScope Completed in 0ms
+29 timing npm:load Completed in 39ms
+30 timing config:load:flatten Completed in 0ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 7ms
+34 timing idealTree:userRequests Completed in 3ms
+35 silly idealTree buildDeps
+36 silly fetch manifest n@*
+37 http fetch GET 200 https://registry.npmjs.org/n 1009ms (cache updated)
+38 silly placeDep ROOT n@9.2.0 OK for:  want: *
+39 timing idealTree:#root Completed in 1021ms
+40 timing idealTree:node_modules/n Completed in 0ms
+41 timing idealTree:buildDeps Completed in 1022ms
+42 timing idealTree:fixDepFlags Completed in 0ms
+43 timing idealTree Completed in 1033ms
+44 timing reify:loadTrees Completed in 1038ms
+45 timing reify:diffTrees Completed in 1ms
+46 silly reify mark retired [ '/usr/local/lib/node_modules/n', '/usr/local/bin/n' ]
+47 silly reify moves {
+47 silly reify   '/usr/local/lib/node_modules/n': '/usr/local/lib/node_modules/.n-oBR4I52F',
+47 silly reify   '/usr/local/bin/n': '/usr/local/bin/.n-V4z1q9jq'
+47 silly reify }
+48 timing reify:rollback:retireShallow Completed in 1ms
+49 timing command:install Completed in 1052ms
+50 verbose stack Error: EACCES: permission denied, rename '/usr/local/lib/node_modules/n' -> '/usr/local/lib/node_modules/.n-oBR4I52F'
+50 verbose stack     at async Object.rename (node:internal/fs/promises:779:10)
+50 verbose stack     at async moveFile (/usr/local/lib/node_modules/npm/node_modules/@npmcli/fs/lib/move-file.js:30:5)
+50 verbose stack     at async Promise.allSettled (index 0)
+50 verbose stack     at async [reifyPackages] (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:251:11)
+50 verbose stack     at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:170:5)
+50 verbose stack     at async Install.exec (/usr/local/lib/node_modules/npm/lib/commands/install.js:152:5)
+50 verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli-entry.js:61:5)
+51 verbose cwd /home/chachiruli
+52 verbose Linux 5.15.133.1-microsoft-standard-WSL2
+53 verbose node v21.6.1
+54 verbose npm  v10.2.4
+55 error code EACCES
+56 error syscall rename
+57 error path /usr/local/lib/node_modules/n
+58 error dest /usr/local/lib/node_modules/.n-oBR4I52F
+59 error errno -13
+60 error Error: EACCES: permission denied, rename '/usr/local/lib/node_modules/n' -> '/usr/local/lib/node_modules/.n-oBR4I52F'
+60 error     at async Object.rename (node:internal/fs/promises:779:10)
+60 error     at async moveFile (/usr/local/lib/node_modules/npm/node_modules/@npmcli/fs/lib/move-file.js:30:5)
+60 error     at async Promise.allSettled (index 0)
+60 error     at async [reifyPackages] (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:251:11)
+60 error     at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:170:5)
+60 error     at async Install.exec (/usr/local/lib/node_modules/npm/lib/commands/install.js:152:5)
+60 error     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli-entry.js:61:5) {
+60 error   errno: -13,
+60 error   code: 'EACCES',
+60 error   syscall: 'rename',
+60 error   path: '/usr/local/lib/node_modules/n',
+60 error   dest: '/usr/local/lib/node_modules/.n-oBR4I52F'
+60 error }
+61 error
+61 error The operation was rejected by your operating system.
+61 error It is likely you do not have the permissions to access this file as the current user
+61 error
+61 error If you believe this might be a permissions issue, please double-check the
+61 error permissions of the file and its containing directories, or try running
+61 error the command again as root/Administrator.
+62 verbose exit -13
+63 timing npm Completed in 1522ms
+64 verbose unfinished npm timer reify 1706611456796
+65 verbose unfinished npm timer reify:retireShallow 1706611457841
+66 verbose code -13
+67 error A complete log of this run can be found in: /home/chachiruli/.npm/_logs/2024-01-30T10_44_16_322Z-debug-0.log
